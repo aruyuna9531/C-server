@@ -1,15 +1,12 @@
-[submodule "references/muduo"]
-	path = references/muduo
-	url = https://github.com/chenshuo/muduo
 [submodule "references/curl"]
 	path = references/curl
 	url = https://github.com/curl/curl
-[submodule "references/log4cplus"]
-	path = references/log4cplus
-	url = https://github.com/log4cplus/log4cplus
 [submodule "references/boost"]
 	path = references/boost
 	url = https://github.com/boostorg/boost
+[submodule "references/muduo"]
+	path = references/muduo
+	url = https://github.com/chenshuo/muduo
 [submodule "references/jsoncpp"]
 	path = references/jsoncpp
 	url = https://github.com/open-source-parsers/jsoncpp
