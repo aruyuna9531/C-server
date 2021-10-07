@@ -1,17 +1,17 @@
-# SimpleServer
+# C++ Server
 
-服务器的简单模板集合，以后有用时直接拿出来用
+C++ 服务器的简单模板集合，以后有用时直接拿出来用
 
-TODO 逐步整理mysql、redis等DB相关代码
+目前服务器支持监听一个TCP和一个HTTP
 
-测试组件版本：
-MySQL 8.0.26
-Redis 6.2.5
-Zookeeper 3.7.0
+测试TCP服务器用的客户端程序可以去golang目录go run client.go
 
-| 目录  | 使用语言 | 支持启动TCP服务 | 支持启动HTTP服务 | 支持连接MySQL | 支持连接Redis | 支持连接Zookeeper | 使用编译器 |
-|-------|---------|-----------------|-----------------|--------------|---------------|------------------|-----------|
-| c++   | c++     | √               | √               | ×            | ×             | ×                | g++ 9.3.0 |
-| java  | java    | ×               | ×               | ×            | ×             | ×                | java 17 |
-| golang | golang | √               | √               | √            | ×             | √                | go 1.17.1 |
-| node.js| node.js| ×               | √               | ×            | ×             | ×                | node 16.9.0 |
+测试HTTP服务器，直接找个地方curl即可
+
+server进程启动后，log目录下a.log是服务器运行日志
+
+需要安装的第三方库见references目录
+
+先把全部第三方库make install，再执行本目录的make
+
+make完在bin目录下执行server文件即可
