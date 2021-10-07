@@ -10,3 +10,6 @@
 [submodule "references/jsoncpp"]
 	path = references/jsoncpp
 	url = https://github.com/open-source-parsers/jsoncpp
+[submodule "references/log4cplus"]
+	path = references/log4cplus
+	url = https://github.com/log4cplus/log4cplus
